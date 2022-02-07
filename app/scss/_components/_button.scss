@@ -1,0 +1,32 @@
+.button {
+  background-color: #d3b288;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: black;
+  border: radius 0;
+  font-weight: bold;
+}
+
+.appointment__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 144px;
+  height: 36;
+  padding: 8px 15px 8px 15px;
+  font-size: 14px;
+}
+
+.headline__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 236px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 300;
+}

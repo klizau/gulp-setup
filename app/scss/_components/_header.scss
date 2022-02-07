@@ -1,0 +1,29 @@
+.page__header {
+  width: 1300px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav__item {
+  margin-left: 30px;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+}
+
+.map__link {
+  border-bottom: 2px dashed #d3b288;
+  padding-bottom: 3px;
+  margin-left: 5px;
+}
