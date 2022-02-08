@@ -1,0 +1,42 @@
+.section__procedures {
+  height: 500px;
+  background-color: #d3b28850;
+  padding: 0;
+}
+
+.procedures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.procedures__text-block {
+  width: 416px;
+  margin-right: 24px;
+}
+
+.procedures__title {
+  width: 306px;
+}
+
+.procedures__text {
+  font-size: 14px;
+  font-weight: normal;
+  width: 416px;
+  margin-top: 25px;
+}
+
+.procedures__options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+}
+
+.procedures__item {
+  width: 196px;
+  height: 260px;
+  box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 1) inset;
+  border: solid 10px #d3b288;
+  background: #d3b288;
+}
