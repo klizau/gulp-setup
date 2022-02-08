@@ -51,6 +51,9 @@ body {
 .text-center {
   text-align: center;
 }
+.text {
+  line-height: 140%;
+}
 
 b,
 strong {
@@ -89,3 +92,4 @@ strong {
 @import "./_sections/section";
 @import "./_sections/headline";
 @import "./_sections/about";
+@import "./_sections/consultation";

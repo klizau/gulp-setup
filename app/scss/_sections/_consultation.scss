@@ -1,0 +1,41 @@
+.consultation {
+  display: grid;
+  grid-template-columns: 306px auto;
+  align-items: flex-start;
+}
+
+.consultation__text-block {
+  margin-right: 24px;
+}
+
+.consultation__title {
+  color: #d3b288;
+  margin-bottom: 30px;
+}
+
+.consultation__text {
+  font-size: 14px;
+}
+
+.consultation__card__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+  margin-bottom: 50px;
+}
+
+.card__text {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 30px;
+}
